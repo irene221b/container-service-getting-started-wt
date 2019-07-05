@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: watson
-          image: "us.icr.io/<namespace>/watson" # edit here!
+          image: "de.icr.io/irene221b/watson" # edit here!
           imagePullPolicy: Always
           volumeMounts:
             - mountPath: /opt/service-bind
@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
         - name: watson-talk
-          image: "us.icr.io/<namespace>/watson-talk" # edit here!
+          image: "de.icr.io/irene221b/watson-talk" # edit here!
           imagePullPolicy: Always
 ---
 apiVersion: v1
